@@ -20,12 +20,30 @@ a {
   box-sizing: border-box;
 }
 
-.navbar {
+.flex-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100vw;
-  background-color: white;
-  color: black;
+  /* background-color: white;
+  color: black; */
+}
+
+.flex-row a:hover {
+  color: #ffc907  
+}
+
+cell {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
 }

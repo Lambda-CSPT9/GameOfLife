@@ -11,18 +11,17 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          J.H. Conway's Game of Life
+          J.H. Conway&apos;s Game of Life
         </h1>
 
         <p className={styles.description}>
-          Staticaly rendered using{' '}
+          Statically rendered using{' '}
           <code className={styles.code}><a href="https://nextjs.org/">NextJS</a></code>
         </p>
 
         <div className={styles.grid}>
           
           <a
-            // href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
             href="/about"
             className={styles.card}
           >
@@ -31,7 +30,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/game"
             className={styles.card}
           >
             <h3>Play Now &rarr;</h3>
